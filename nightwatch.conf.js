@@ -18,6 +18,7 @@ module.exports = {
     "start_process": true,
     "server_path": "./node_modules/.bin/chromedriver",//for chrome
     "port": 9515,
+    check_process_delay: 5000,
     cli_args: [
       '--port=9515'
     ]
