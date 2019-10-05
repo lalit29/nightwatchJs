@@ -5,12 +5,12 @@
 
   <testsuite name="logintest"
     errors="0" failures="1" hostname="" id="" package="logintest" skipped="0"
-    tests="1" time="28.09" timestamp="">
+    tests="1" time="26.93" timestamp="">
   
-    <testcase name="Login Test" classname="logintest" time="28.09" assertions="1">  <failure message="Timed out while waiting for element &lt;//*[@id=&#34;content&#34;]/div/main/div[2]/div/section[2]/div/div[2]/div/div[1]/a&gt; to be present for 5000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m">    at Object.Login Test (C:\Users\436793\Desktop\javascript\POC\Nightwatch_HT\tests\logintest.js:16:14)
+    <testcase name="Login Test" classname="logintest" time="26.93" assertions="1">  <failure message="Timed out while waiting for element &lt;//*[@id=&#34;content&#34;]/div/main/div[2]/div/section[2]/div/div[2]/div/div[1]/a&gt; to be present for 5000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m">    at Object.Login Test (C:\Users\436793\Desktop\javascript\POC\Nightwatch_HT\tests\logintest.js:16:14)
     at &lt;anonymous&gt;
     at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
-<system-out>[[ATTACHMENT|C:\Users\436793\Desktop\javascript\POC\Nightwatch_HT\tests_output\screenshots\logintest\Login-Test_FAILED_Oct-05-2019-231332-GMT+0530-(India-Standard.png]]</system-out>
+<system-out>[[ATTACHMENT|C:\Users\436793\Desktop\javascript\POC\Nightwatch_HT\tests_output\screenshots\logintest\Login-Test_FAILED_Oct-05-2019-234726-GMT+0530-(India-Standard.png]]</system-out>
     <failure message="    at Object.Login Test (C:\Users\436793\Desktop\javascript\POC\Nightwatch_HT\tests\logintest.js:16:14)">    at &lt;anonymous&gt;
     at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
     </testcase>
