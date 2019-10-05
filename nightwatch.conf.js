@@ -4,25 +4,25 @@ module.exports = {
   "src_folders" : ["tests"],
   'page_objects_path': ['page-objects'],
 
-  // "selenium": {
-  //   "start_process": true,
-  //   "server_path": "C:\\Users\\436793\\Desktop\\javascript\\selenium-server-standalone-3.141.59 (2).jar",
-  //   "port": 4444,
-  //   "cli_args": {
-  //    "webdriver.chrome.driver": "C:\\Users\\436793\\Desktop\\javascript\\POC\\nightwatch_browserstack\\node_modules\\.bin\\chromedriver.exe",
-  //    // "webdriver.gecko.driver" : "C:\\Users\\436793\\Desktop\\javascript\\drivers\\geckodriver-v0.25.0-win64 (1)\\geckodriver.exe"
-  //   }
-  // },
-  
-  "webdriver" : {
+  "selenium": {
     "start_process": true,
-    "server_path": "./node_modules/.bin/chromedriver",//for chrome
-    "port": 9515,
-    check_process_delay: 5000,
-    cli_args: [
-      '--port=9515'
-    ]
+    "server_path": "drivers\\selenium-server-standalone-3.141.59.jar",
+    "port": 4444,
+    "cli_args": {
+     "webdriver.chrome.driver": "drivers\\chromedriver.exe",
+     // "webdriver.gecko.driver" : "drivers\\geckodriver.exe"
+    }
   },
+  
+  // "webdriver" : {
+  //   "start_process": true,
+  //   "server_path": "./node_modules/.bin/chromedriver",//for chrome
+  //   "port": 9515,
+  //   check_process_delay: 5000,
+  //   cli_args: [
+  //     '--port=9515'
+  //   ]
+  // },
 
   "globals_path": 'globals.js',
   
@@ -75,6 +75,7 @@ module.exports = {
         "acceptSslCerts": true,
         "acceptInsecureCerts": true,
         'chromeOptions': {
+          w3c: false,
           "args": [
             "disable-web-security",
             "ignore-certificate-errors",

@@ -5,12 +5,12 @@
 
   <testsuite name="verifyDeliveryDetails"
     errors="0" failures="1" hostname="" id="" package="verifyDeliveryDetails" skipped="0"
-    tests="1" time="14.17" timestamp="">
+    tests="1" time="9.476" timestamp="">
   
-    <testcase name="Delivery details" classname="verifyDeliveryDetails" time="14.17" assertions="1">  <failure message="Testing if element &lt;//*[@id=&#34;content&#34;]/div/main/section/div[1]/div/div/section[5]/div/div/div[1]/div[1]/a/div[2]/div[2]/span&gt; contains text: &#34;Delivered by 4th Oct&#34; in 1000 ms. - expected [0;32m&#34;Delivered by 4th Oct&#34;[0m but got: [0;31m&#34;Delivered by 19th Oct&#34;[0m">    at Object.Delivery details (C:\Users\436793\Desktop\javascript\POC\Nightwatch_HT\tests\verifyDeliveryDetails.js:10:21)
+    <testcase name="Delivery details" classname="verifyDeliveryDetails" time="9.476" assertions="1">  <failure message="Testing if element &lt;//*[@id=&#34;content&#34;]/div/main/section/div[1]/div/div/section[5]/div/div/div[1]/div[1]/a/div[2]/div[2]/span&gt; contains text: &#34;Delivered by 4th Oct&#34; in 1000 ms. - expected [0;32m&#34;Delivered by 4th Oct&#34;[0m but got: [0;31m&#34;Delivered by 19th Oct&#34;[0m">    at Object.Delivery details (C:\Users\436793\Desktop\javascript\POC\Nightwatch_HT\tests\verifyDeliveryDetails.js:10:21)
     at &lt;anonymous&gt;
     at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
-<system-out>[[ATTACHMENT|C:\Users\436793\Desktop\javascript\POC\Nightwatch_HT\tests_output\screenshots\verifyDeliveryDetails\Delivery-details_FAILED_Oct-05-2019-193229-GMT+0530-(India-Standard.png]]</system-out>
+<system-out>[[ATTACHMENT|C:\Users\436793\Desktop\javascript\POC\Nightwatch_HT\tests_output\screenshots\verifyDeliveryDetails\Delivery-details_FAILED_Oct-05-2019-205209-GMT+0530-(India-Standard.png]]</system-out>
     <failure message="    at Object.Delivery details (C:\Users\436793\Desktop\javascript\POC\Nightwatch_HT\tests\verifyDeliveryDetails.js:10:21)">    at &lt;anonymous&gt;
     at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
     </testcase>
