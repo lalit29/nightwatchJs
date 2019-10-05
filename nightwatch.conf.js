@@ -5,27 +5,27 @@ module.exports = {
   "src_folders" : ["tests"],
   'page_objects_path': ['page-objects'],
 
-  // "selenium": {
-  //   "start_process": true,
-  //   "server_path": "drivers\\abc.jar",
-  //   "port": 4444,
-  //   // check_process_delay: 5000,
-  //   "cli_args": {
-  //    "webdriver.chrome.driver": "drivers\\chromedriver.exe",
-  //   //  "webdriver.gecko.driver" : "drivers\\geckodriver.exe"
-  //   }
-  // },
-  
-  "webdriver" : {
+  "selenium": {
     "start_process": true,
-    "server_path": "./node_modules/.bin/chromedriver",//for chrome
-    // 'server_path': require('chromedriver').path,
-    "port": 9515,
+    "server_path": "drivers\\abc.jar",
+    "port": 4444,
     // check_process_delay: 5000,
-    // cli_args: [
-    //   '--port=9515'
-    // ]
+    "cli_args": {
+     "webdriver.chrome.driver": "drivers\\chromedriver.exe",
+    //  "webdriver.gecko.driver" : "drivers\\geckodriver.exe"
+    }
   },
+  
+  // "webdriver" : {
+  //   "start_process": true,
+  //   "server_path": "./node_modules/.bin/chromedriver",//for chrome
+  //   // 'server_path': require('chromedriver').path,
+  //   "port": 9515,
+  //   // check_process_delay: 5000,
+  //   // cli_args: [
+  //   //   '--port=9515'
+  //   // ]
+  // },
 
   "globals_path": 'globals.js',
   
@@ -40,6 +40,10 @@ module.exports = {
   
   "test_settings" : {
     "default" : {
+      "request_timeout_options": {
+        "timeout": 300000,
+        "retry_attempts": 5
+      },
      "launchUrl":'https://stackoverflow.com/',
       'screenshots': {
         'enabled': true,
@@ -50,10 +54,7 @@ module.exports = {
 
   
 
-    "request_timeout_options": {
-      "timeout": 300000,
-      "retry_attempts": 5
-    },
+    
 
     
       "desiredCapabilities": {
