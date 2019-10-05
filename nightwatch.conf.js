@@ -1,4 +1,5 @@
 require('dotenv').config();
+const chromedriver = require("chromedriver");
 
 module.exports = {
   "src_folders" : ["tests"],
@@ -8,9 +9,10 @@ module.exports = {
     "start_process": true,
     "server_path": "drivers\\abc.jar",
     "port": 4444,
+    // check_process_delay: 5000,
     "cli_args": {
-     "webdriver.chrome.driver": "drivers\\chromedriver.exe",
-     // "webdriver.gecko.driver" : "drivers\\geckodriver.exe"
+    //  "webdriver.chrome.driver": "drivers\\chromedriver.exe",
+     "webdriver.gecko.driver" : "drivers\\geckodriver.exe"
     }
   },
   
@@ -65,28 +67,28 @@ module.exports = {
     
       "desiredCapabilities": {
 
-        // "browserName": "firefox",
-        // "moz:firefoxOptions": {
-        //   "args": ["--headless"]
-        // },
+        "browserName": "firefox",
+        "moz:firefoxOptions": {
+          "args": ["--headless"]
+        },
 
-        "browserName": "chrome",
-        //  "browserName" : "firefox",
-        "acceptSslCerts": true,
-        "acceptInsecureCerts": true,
-        'chromeOptions': {
-          w3c: false,
-          "args": [
-            "disable-web-security",
-            "ignore-certificate-errors",
-            "--test-type",
-            "--disable-gpu",
-            "--window-size=1860,1200",
-            "--headless",
-            // "--screenshot",
-            // "--dump-dom"
-          ],  
-      },
+      //   "browserName": "chrome",
+      //   //  "browserName" : "firefox",
+      //   "acceptSslCerts": true,
+      //   "acceptInsecureCerts": true,
+      //   'chromeOptions': {
+      //     w3c: false,
+      //     "args": [
+      //       "disable-web-security",
+      //       "ignore-certificate-errors",
+      //       "--test-type",
+      //       "--disable-gpu",
+      //       "--window-size=1860,1200",
+      //       "--headless",
+      //       // "--screenshot",
+      //       // "--dump-dom"
+      //     ],  
+      // },
 
       "disable-popup-blocking": true,
       "skip_testcases_on_fail": false,
