@@ -4,8 +4,9 @@ node_js:
 services:
   - xvfb
 dist: trusty
-
+addons:
+  chrome: beta
 before_install:
-  - google-chrome --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
+  - google-chrome-beta --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
 script:
   - xvfb-run node nightwatch
