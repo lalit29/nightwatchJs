@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="abc"
+    errors="1" failures="0" hostname="" id="" package="abc" skipped="0"
+    tests="1" time="33.44" timestamp="">
+  
+    <testcase name="modal Test" classname="abc" time="33.44" assertions="0">
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

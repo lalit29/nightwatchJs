@@ -1,0 +1,23 @@
+{
+  "name": "bbb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^8.1.0",
+    "nightwatch": "^1.2.4"
+  },
+  "dependencies": {
+    "nightwatch-allure-adapter": "^1.2.4",
+    "nightwatch-html-reporter": "^2.0.6",
+    "testarmada-magellan": "^11.0.6",
+    "testarmada-magellan-local-executor": "^2.0.3",
+    "testarmada-magellan-nightwatch-plugin": "^8.0.9"
+  }
+}

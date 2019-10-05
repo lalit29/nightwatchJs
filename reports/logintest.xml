@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="logintest"
+    errors="1" failures="0" hostname="" id="" package="logintest" skipped="1"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+      [0;31m  Error: Cannot find module &#39;C:\Users\436793\Desktop\javascript\POC\Nightwatch_HT\tests\order.js&#39;[0m
+[0;90m       at Function.Module._resolveFilename (module.js:547:15)
+       at Function.Module._load (module.js:474:25)
+       at Module.require (module.js:596:17)
+       at require (internal/module.js:11:18)[0m
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Login Test" classname="logintest">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
