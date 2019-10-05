@@ -6,7 +6,7 @@ module.exports = {
 
   "selenium": {
     "start_process": true,
-    "server_path": "drivers\\selenium-server-standalone-3.141.59.jar",
+    "server_path": "drivers\\abc.jar",
     "port": 4444,
     "cli_args": {
      "webdriver.chrome.driver": "drivers\\chromedriver.exe",
