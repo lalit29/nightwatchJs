@@ -16,8 +16,11 @@ module.exports = {
   
   "webdriver" : {
     "start_process": true,
-    "server_path": "chromedriver.exe",//for chrome
+    "server_path": "./node_modules/.bin/chromedriver",//for chrome
     "port": 9515,
+    cli_args: [
+      '--port=9515'
+    ]
   },
 
   "globals_path": 'globals.js',

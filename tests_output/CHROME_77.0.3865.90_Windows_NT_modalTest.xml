@@ -5,9 +5,9 @@
 
   <testsuite name="modalTest"
     errors="0" failures="0" hostname="" id="" package="modalTest" skipped="0"
-    tests="1" time="36.75" timestamp="">
+    tests="1" time="22.81" timestamp="">
   
-    <testcase name="modal Test" classname="modalTest" time="36.75" assertions="0">
+    <testcase name="modal Test" classname="modalTest" time="22.81" assertions="0">
     </testcase>
   
 
