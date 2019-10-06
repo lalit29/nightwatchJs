@@ -5,8 +5,8 @@ services:
   - xvfb
 dist: trusty
 addons:
-  geckodriver: stable
+  chrome: stable
 before_install:
-  - geckodriver-stable --headless --disable-gpu --disable-extensions --remote-debugging-port=9222 http://localhost &
+  - google-chrome-stable --headless --disable-gpu --disable-extensions --remote-debugging-port=9222 http://localhost &
 script:
   - xvfb-run node nightwatch
