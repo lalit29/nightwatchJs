@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
+<testsuites errors="2"
             failures="0"
             tests="1">
 
   <testsuite name="modalTest"
-    errors="0" failures="0" hostname="" id="" package="modalTest" skipped="0"
-    tests="1" time="23.32" timestamp="">
+    errors="2" failures="0" hostname="" id="" package="modalTest" skipped="0"
+    tests="1" time="34.72" timestamp="">
   
-    <testcase name="modal Test" classname="modalTest" time="23.32" assertions="0">
+    <testcase name="modal Test" classname="modalTest" time="34.72" assertions="0">
     </testcase>
   
 

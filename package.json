@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "freshtall": "npm cache clean --force && rm -rf node_modules && rm -f package-lock.json && npm install"
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
   },
   "keywords": [],
   "author": "",
@@ -13,8 +13,9 @@
   "devDependencies": {
     "chromedriver": "^2.9.0",
     "dotenv": "^8.1.0",
+    "eslint": "^5.15.1",
     "nightwatch": "^1.0.19",
-    "eslint": "^5.15.1"
+    "yargs": "^14.2.0"
   },
   "dependencies": {
     "nightwatch-allure-adapter": "^1.2.4",

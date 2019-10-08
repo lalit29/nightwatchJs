@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
+<testsuites errors="0"
             failures="0"
             tests="0">
 
   <testsuite name="verifyDeliveryDetails"
-    errors="1" failures="0" hostname="" id="" package="verifyDeliveryDetails" skipped="1"
+    errors="0" failures="0" hostname="" id="" package="verifyDeliveryDetails" skipped="1"
     tests="0" time="0.000" timestamp="">
   
 

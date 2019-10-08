@@ -2,10 +2,12 @@
 var HtmlReporter = require('nightwatch-html-reporter');
 var reporter = new HtmlReporter({
     openBrowser: true,
-    reportsDirectory: __dirname + '/reports'
+    reportsDirectory: __dirname + '/reports',
+  //  reportFilename: 'report' + '_' + process.env.__NIGHTWATCH_ENV + '.html',
+  //  themeName: 'outlook'
 });
 
-var allure = require("nightwatch-allure-adapter");
+//var allure = require("nightwatch-allure-adapter");
 
 module.exports = {
 
@@ -79,6 +81,10 @@ module.exports = {
     // reporter(results, cb) {
     //     cb();
     //   }
+
+  //   write : function(results, options, done) {
+  //     reporter.fn(results, done);
+  // }
     reporter: reporter.fn
     // reporter: allure.write
   };

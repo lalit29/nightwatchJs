@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
+<testsuites errors="1"
             failures="1"
             tests="1">
 
   <testsuite name="abc"
-    errors="0" failures="1" hostname="" id="" package="abc" skipped="0"
-    tests="1" time="28.34" timestamp="">
+    errors="1" failures="1" hostname="" id="" package="abc" skipped="0"
+    tests="1" time="27.03" timestamp="">
   
-    <testcase name="modal Test" classname="abc" time="28.34" assertions="1">  <failure message="Timed out while waiting for element &lt;/html/body/div[7]/div/div/div/div/input&gt; to be present for 3000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m">    at Object.modal Test (C:\Users\436793\Desktop\javascript\POC\Nightwatch_HT\tests\abc.js:12:12)
+    <testcase name="modal Test" classname="abc" time="27.03" assertions="1">  <failure message="Timed out while waiting for element &lt;/html/body/div[7]/div/div/div/div/input&gt; to be present for 3000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m">    at Object.modal Test (C:\Users\436793\Desktop\javascript\POC\Nightwatch_HT\tests\abc.js:13:12)
     at &lt;anonymous&gt;
     at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
-<system-out>[[ATTACHMENT|C:\Users\436793\Desktop\javascript\POC\Nightwatch_HT\tests_output\screenshots\abc\modal-Test_FAILED_Oct-06-2019-143523-GMT+0530-(India-Standard.png]]</system-out>
-    <failure message="    at Object.modal Test (C:\Users\436793\Desktop\javascript\POC\Nightwatch_HT\tests\abc.js:12:12)">    at &lt;anonymous&gt;
+<system-out>[[ATTACHMENT|C:\Users\436793\Desktop\javascript\POC\Nightwatch_HT\tests_output\screenshots\abc\modal-Test_FAILED_Oct-08-2019-123251-GMT+0530-(India-Standard.png]]</system-out>
+    <failure message="    at Object.modal Test (C:\Users\436793\Desktop\javascript\POC\Nightwatch_HT\tests\abc.js:13:12)">    at &lt;anonymous&gt;
     at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
     </testcase>
   

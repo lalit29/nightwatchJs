@@ -5,6 +5,7 @@ module.exports = {
       browser
           .useXpath()
           .url('https://www.hometown.in/furniture/living-room-furniture/sofas')
+          //.url(browser.launchUrl)
           .windowMaximize()
 
           
