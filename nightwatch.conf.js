@@ -7,11 +7,13 @@ module.exports = {
 
   "selenium": {
     "start_process": true,
-    "server_path": "drivers\\abc.jar",
+    // "server_path": "drivers\\abc.jar",
+    "server_path":argv.jar,
     "port": 4444,
     // check_process_delay: 5000,
     "cli_args": {
-     "webdriver.chrome.driver": "drivers\\chromedriver.exe",
+    //  "webdriver.chrome.driver": "drivers\\chromedriver.exe",
+     "webdriver.chrome.driver": argv.driver,
      "webdriver.gecko.driver" : "drivers\\geckodriver.exe"
     }
   },
@@ -46,7 +48,9 @@ module.exports = {
           "timeout": 300000,
           "retry_attempts": 5
         },
+
       "launchUrl":argv.url,
+
       "silent" : true,
       "screenshots" : {
           'enabled': true,
