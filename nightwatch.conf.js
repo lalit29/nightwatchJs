@@ -2,7 +2,7 @@ require('dotenv').config();
 const argv = require('yargs').argv;
 
 module.exports = {
-  "src_folders" : ["tests"],
+  "src_folders" : ["tests"],// test
   'page_objects_path': ['page-objects'],
 
   // "selenium": {
