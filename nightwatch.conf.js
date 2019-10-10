@@ -7,7 +7,7 @@ module.exports = {
 
   "selenium": {
     "start_process": true,
-    // "server_path": "drivers\\abc.jar",
+    // "server_path": "drivers\\abc.jar",//
     "server_path": require("selenium-server").path,
     //"server_path":argv.jar,
     "port": 4444,
