@@ -120,6 +120,74 @@ $(document).ready(function() {
   <body>
     <h1>Nightwatch Results</h1>
     <div id="container"><a class="toggleSuccess" href="#">Show/Hide Successes</a>
+      <div class="package success">
+        <h2 class="name">&#10003; modalTest</h2>
+        <div class="suites">
+          <div class="suite success">
+            <h3 class="name">modal Test</h3>
+            <ul class="testcases">
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="package error">
+        <h2 class="name">&#10005; verifyDeliveryDetails</h2>
+        <div class="suites">
+          <div class="suite error">
+            <h3 class="name">Delivery details</h3>
+            <ul class="testcases">
+              <li class="testcase error">
+                <div class="status">&#10005;</div>
+                <div class="name">Testing if element &lt;//*[@id=&quot;content&quot;]/div/main/section/div[1]/div/div/section[5]/div/div/div[1]/div[1]/a/div[2]/div[2]/span&gt; contains text: &quot;Delivered by 4th Oct&quot; in 1000 ms. - expected [0;32m&quot;Delivered by 4th Oct&quot;[0m but got: [0;31m&quot;Delivered by 24th Oct&quot;[0m Expected &quot;Delivered by 4th Oct&quot; but got: &quot;Delivered by 24th Oct&quot;</div>
+                <div class="screenshot"><img src="C:\Users\436793\Desktop\javascript\POC\Nightwatch_HT\tests_output\screenshots\verifyDeliveryDetails\Delivery-details_FAILED_Oct-10-2019-181745-GMT+0530-(India-Standard.png"></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="package error">
+        <h2 class="name">&#10005; abc</h2>
+        <div class="suites">
+          <div class="suite error">
+            <h3 class="name">modal Test</h3>
+            <ul class="testcases">
+              <li class="testcase error">
+                <div class="status">&#10005;</div>
+                <div class="name">Timed out while waiting for element &lt;/html/body/div[7]/div/div/div/div/input&gt; to be present for 3000 milliseconds. - expected [0;32m&quot;visible&quot;[0m but got: [0;31m&quot;not found&quot;[0m Expected &quot;visible&quot; but got: &quot;not found&quot;</div>
+                <div class="screenshot"><img src="C:\Users\436793\Desktop\javascript\POC\Nightwatch_HT\tests_output\screenshots\abc\modal-Test_FAILED_Oct-10-2019-181747-GMT+0530-(India-Standard.png"></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="package success">
+        <h2 class="name">&#10003; logintest</h2>
+        <div class="suites">
+          <div class="suite success">
+            <h3 class="name">Login Test</h3>
+            <ul class="testcases">
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;//*[@id=&quot;content&quot;]/div/main/div[2]/div/section[2]/div/div[2]/div/div[1]/a&gt; was visible after 96 milliseconds.</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="package success">
+        <h2 class="name">&#10003; order</h2>
+        <div class="suites">
+          <div class="suite success">
+            <h3 class="name">Order flow </h3>
+            <ul class="testcases">
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if element &lt;//*[@id=&quot;content&quot;]/div/main/section/div[1]/div/div/section/div/div/div/div[2]/div[2]/div[1]/section/div/div/h1&gt; contains text: &quot;Chatni Vati Stainless steel Katori in Silver Colour by Living Essence&quot;  - 184 ms.</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

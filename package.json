@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "chrome":"node nightwatch --env chrome --retries 2",
+    "firefox":"node nightwatch --env firefox --retries 2",
     "lint": "eslint .",
     "debug": "node --inspect-brk node_modules/.bin/nightwatch",
     "test": "nightwatch",
