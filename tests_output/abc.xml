@@ -1,22 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="1"
             failures="0"
-            tests="0">
+            tests="1">
 
   <testsuite name="abc"
-    errors="1" failures="0" hostname="" id="" package="abc" skipped="1"
-    tests="0" time="0.000" timestamp="">
+    errors="1" failures="0" hostname="" id="" package="abc" skipped="0"
+    tests="1" time="0.006000" timestamp="Thu, 10 Oct 2019 12:23:18 GMT">
   
-
-  
-
-  
-    
-    <testcase
-      name="modal Test" classname="abc">
-      <skipped />
+    <testcase name="modal Test" classname="abc" time="0.006000" assertions="0">
     </testcase>
-    
+  
+
+  
+    <system-err>
+        Error while running [Abc / modal Test]:
+
+  TypeError: browser.getWindowPosition is not a function
+    at Object.modal Test (C:\Users\436793\Desktop\javascript\POC\Nightwatch_HT\tests\abc.js:16:19)
+    at Module.call (C:\Users\436793\Desktop\javascript\POC\Nightwatch_HT\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\436793\Desktop\javascript\POC\Nightwatch_HT\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\436793\Desktop\javascript\POC\Nightwatch_HT\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\436793\Desktop\javascript\POC\Nightwatch_HT\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\436793\Desktop\javascript\POC\Nightwatch_HT\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\436793\Desktop\javascript\POC\Nightwatch_HT\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\436793\Desktop\javascript\POC\Nightwatch_HT\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\436793\Desktop\javascript\POC\Nightwatch_HT\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
   
   </testsuite>
 </testsuites>
