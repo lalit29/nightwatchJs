@@ -2,6 +2,7 @@ module.exports = {
   '@tags': ['hello'],
   '@disabled': false,
   'modal Test'(browser) {
+    console.log(browser.options.desiredCapabilities.browserName);
       browser
           .useXpath()
           .url('https://www.hometown.in/furniture/living-room-furniture/sofas')

@@ -2,6 +2,7 @@ module.exports = {
     '@tags': ['login'],
     '@disabled': false,
     'Login Test'(browser) {
+        console.log(browser.options.desiredCapabilities.browserName);
         browser
             .useXpath()
             .url('https://www.hometown.in/login/?redirect=/')
